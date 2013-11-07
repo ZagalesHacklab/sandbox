@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('sandboxApp')
-    .directive('hello', function ($animate) {
+    .directive('hello', function () {
         return {
             restrict: 'E',
             replace: true,
