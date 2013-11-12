@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('sandboxApp', ['ngRoute']).config(function ($routeProvider) {
+angular.module('sandboxApp', ['ngRoute','ngAnimate']).config(function ($routeProvider) {
     $routeProvider
         .when('/', {
             templateUrl: 'views/main.html',

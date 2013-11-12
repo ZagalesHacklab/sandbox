@@ -13,6 +13,7 @@ module.exports = function (config) {
             'app/components/chai/chai.js',
             'app/components/angular/angular.js',
             'app/components/angular-route/angular-route.js',
+            'app/components/angular-animate/angular-animate.js',
             'app/components/angular-mocks/angular-mocks.js',
             'app/components/angular-sanitize/angular-sanitize.js',
             'app/scripts/*.js',

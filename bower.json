@@ -9,6 +9,7 @@
         "angular-cookies": "~1.2.0-rc.3",
         "angular-route": "~1.2.0-rc.3",
         "angular-sanitize": "~1.2.0-rc.3",
+        "angular-animate": "~1.2.0-rc.3",
         "foundation": ">=4.3.2"
     },
     "devDependencies": {
