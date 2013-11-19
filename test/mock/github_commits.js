@@ -83,12 +83,12 @@ angular.module('sandboxMocks', [])
                 "commit": {
                     "author": {
                         "name": "Francho",
-                        "email": "lab@francho.org",
+                        "email": "lab@dummymail.com",
                         "date": "2013-11-07T22:18:33Z"
                     },
                     "committer": {
                         "name": "Francho",
-                        "email": "lab@francho.org",
+                        "email": "lab@dummymail.com",
                         "date": "2013-11-07T22:18:33Z"
                     },
                     "message": "jshint fix",
@@ -153,12 +153,12 @@ angular.module('sandboxMocks', [])
                 "commit": {
                     "author": {
                         "name": "Francho",
-                        "email": "lab@francho.org",
+                        "email": "lab@dummymail.com",
                         "date": "2013-11-07T18:40:16Z"
                     },
                     "committer": {
                         "name": "Francho",
-                        "email": "lab@francho.org",
+                        "email": "lab@dummymail.com",
                         "date": "2013-11-07T18:40:16Z"
                     },
                     "message": "Hello directive",
@@ -223,12 +223,12 @@ angular.module('sandboxMocks', [])
                 "commit": {
                     "author": {
                         "name": "Francho",
-                        "email": "lab@francho.org",
+                        "email": "lab@dummymail.com",
                         "date": "2013-10-24T21:31:21Z"
                     },
                     "committer": {
                         "name": "Francho",
-                        "email": "lab@francho.org",
+                        "email": "lab@dummymail.com",
                         "date": "2013-10-24T21:31:21Z"
                     },
                     "message": "Update README.md",
@@ -293,12 +293,12 @@ angular.module('sandboxMocks', [])
                 "commit": {
                     "author": {
                         "name": "Francho",
-                        "email": "lab@francho.org",
+                        "email": "lab@dummymail.com",
                         "date": "2013-10-24T21:14:24Z"
                     },
                     "committer": {
                         "name": "Francho",
-                        "email": "lab@francho.org",
+                        "email": "lab@dummymail.com",
                         "date": "2013-10-24T21:14:24Z"
                     },
                     "message": "Angular Scaffold",
@@ -363,12 +363,12 @@ angular.module('sandboxMocks', [])
                 "commit": {
                     "author": {
                         "name": "Francho",
-                        "email": "lab@francho.org",
+                        "email": "lab@dummymail.com",
                         "date": "2013-10-24T17:43:54Z"
                     },
                     "committer": {
                         "name": "Francho",
-                        "email": "lab@francho.org",
+                        "email": "lab@dummymail.com",
                         "date": "2013-10-24T17:43:54Z"
                     },
                     "message": "first commit",
