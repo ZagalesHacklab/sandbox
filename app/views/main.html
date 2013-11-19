@@ -25,7 +25,7 @@
         <ul>
             <li ng-repeat="commit_info in commits"
                 class="commit my-repeat-animation"
-                style="transition-delay: {{$index * 300}}ms">
+                style="transition-delay: {{$index * 300}}ms;">
 
                 <img ng-src="{{commit_info.author.avatar_url}}">
                 <a href="{{commit_info.html_url}}">{{commit_info.sha}}</a><br/>
