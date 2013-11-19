@@ -1,16 +1,39 @@
-<div class="hero-unit">
-    <form>
-        <input type="text" ng-model="username" required>
-    </form>
-    <hello ng-model="username"></hello>
+<div class="row">
 
-    <p>You now have</p>
-    <ul>
-        <li ng-repeat="thing in awesomeThings">{{thing}}</li>
-    </ul>
-    <p>installed.</p>
+    <div class="hero-unit large-6 columns">
+        <form>
+            <input type="text" ng-model="username" required>
+        </form>
+        <hello ng-model="username"></hello>
 
-    <h3>Enjoy coding! - Yeoman</h3>
 
+        <p>You now have</p>
+        <ul>
+            <li ng-repeat="thing in awesomeThings">{{thing}}</li>
+        </ul>
+        <p>installed.</p>
+
+        <h3>Enjoy coding! - Yeoman</h3>
+
+
+    </div>
+
+    <div class="repo large-6 columns">
+        <button ng-click="getCommits()" ng-if="!loading">Get Commits</button>
+        <span class="progress" ng-if="loading">Loading...</span>
+
+        <ul>
+            <li ng-repeat="commit_info in commits"
+                class="commit my-repeat-animation"
+                style="transition-delay: {{$index * 300}}ms">
+
+                <img ng-src="{{commit_info.author.avatar_url}}">
+                <a href="{{commit_info.html_url}}">{{commit_info.sha}}</a><br/>
+                by @{{commit_info.author.login}}<br/>
+
+                <p>{{commit_info.commit.message}}</p>
+            </li>
+        </ul>
+    </div>
 
 </div>
