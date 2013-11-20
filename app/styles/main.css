@@ -1,22 +1,118 @@
 body {
-    background: #fafafa;
+    background: #AAA;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #333;
+    margin: 10px;
+}
+
+.hero-unit, .repo {
+    padding: 60px;
+    width: 40%;
+
+    border-radius: 6px;
 }
 
 .hero-unit {
-    margin: 50px auto 0 auto;
-    width: 300px;
     font-size: 18px;
     font-weight: 200;
     line-height: 30px;
     background-color: #eee;
-    border-radius: 6px;
-    padding: 60px;
+    float:right;
 }
 
 .hero-unit h1 {
     font-size: 60px;
     line-height: 1;
     letter-spacing: -1px;
+}
+
+.repo {
+    background-color: #F5F5F5;
+}
+
+.repo ul {
+    padding:0;
+    display: inline-block;
+}
+
+li.commit {
+    display: block;
+    list-style: none;
+    float:none;
+    clear:both;
+    margin:10px;
+    padding: 5px;
+
+    background: #E6E4E4;
+
+    -moz-border-color: #666;
+    -moz-border-width: 1px;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+}
+
+.commit img {
+    float: left;
+    margin: 0 10px 0 0;
+
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+}
+
+.commit a {
+    font-size: 0.5em;
+}
+
+.commit p {
+    font-size: 0.8em;
+    display:block;
+}
+
+button, .progress {
+    font-size: 1.5em;
+    margin: 10px;
+}
+
+
+/*Animations*/
+
+.my-repeat-animation.ng-enter,
+.my-repeat-animation.ng-leave,
+.my-repeat-animation.ng-move {
+    -webkit-transition-timing-function: ease-out-cubic;
+    -webkit-transition: 0.5s ease-out all;
+    -moz-transition: 0.5s ease-out all;
+    -o-transition: 0.5s ease-out all;
+    transition: 0.5s ease-out all;
+    position:relative;
+}
+
+.my-repeat-animation.ng-enter {
+    left:-10px;
+    opacity:0;
+}
+.my-repeat-animation.ng-enter.ng-enter-active {
+    left:0;
+    opacity:1;
+}
+
+.my-repeat-animation.ng-leave {
+    left:0;
+    opacity:1;
+}
+.my-repeat-animation.ng-leave.ng-leave-active {
+    left:-30px;
+    opacity:0;
+}
+
+.my-repeat-animation.ng-move {
+    opacity:0.5;
+}
+
+.my-repeat-animation.ng-move.ng-move-active {
+    opacity:1;
 }

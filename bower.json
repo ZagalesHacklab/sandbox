@@ -1,20 +1,21 @@
 {
-    "name": "sandbox",
-    "version": "0.0.1",
-    "dependencies": {
-        "angular": "~1.2.0-rc.3",
-        "json3": "~3.2.4",
-        "es5-shim": "~2.0.8",
-        "angular-resource": "~1.2.0-rc.3",
-        "angular-cookies": "~1.2.0-rc.3",
-        "angular-route": "~1.2.0-rc.3",
-        "angular-sanitize": "~1.2.0-rc.3",
-        "angular-animate": "~1.2.0-rc.3",
-        "foundation": ">=4.3.2"
-    },
-    "devDependencies": {
-        "angular-mocks": "~1.2.0-rc.3",
-        "angular-scenario": "~1.2.0-rc.3",
-        "chai": "~1.8.1"
-    }
+  "name": "sandbox",
+  "version": "0.0.1",
+  "dependencies": {
+    "angular": "~1.2.1",
+    "json3": "~3.2.4",
+    "es5-shim": "~2.1.0",
+    "angular-resource": "~1.2.1",
+    "angular-cookies": "~1.2.1",
+    "angular-route": "~1.2.1",
+    "angular-sanitize": "~1.2.1",
+    "angular-animate": "~1.2.1",
+    "foundation": ">=4.3.2"
+  },
+  "devDependencies": {
+    "angular-mocks": "~1.2.1",
+    "angular-scenario": "~1.2.1",
+    "chai": "~1.8.1",
+    "karma-jasmine": "~0.1.3"
+  }
 }
