@@ -19,6 +19,7 @@ Despues de clonar el repositorio ejecuta (desde la carpeta del repositorio):
 Para ejecutar los test:
 
 * ./node_modules/.bin/grunt test
+
 ####Runeando el ejemplo de sinatra
 
 > Necesitas tener instalado Ruby 2.0.0-p353(otras versiones tambien funciona pero acordamos usar esta en el primer sprint)
