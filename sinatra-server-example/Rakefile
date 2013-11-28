@@ -1,0 +1,13 @@
+
+#En este archivo podemos configurar "tareas" que queremos que se ejecuten
+#a traves de un simple comando, por ejemplo pasar todos los test o uno solo,
+#migrar los datos a la base de datos de la aplicacion...
+#Sintaxis para declarar una tarea:
+namespace :test do
+	task :spec do
+		puts "aqui correriamos todos los test"
+	end
+end
+
+#se llamarian desde la consola con el comando:
+#rake test:spec
